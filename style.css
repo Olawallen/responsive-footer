@@ -213,14 +213,20 @@ footer .bottom-details .bottom_text{
 }
 @media (max-width: 900px){
     footer .content .link-boxes{
-        /* flex-wrap: wrap; */
-        flex-direction:column-reverse
+        flex-wrap: wrap;
+        /* flex-direction:column-reverse */
         
     }
         footer .content .link-boxes .input-box{
+            margin-right: 35%;
         
         width:20%;
     }
+    footer .bottom-details .bottom_text{
+        min-width: 50%;
+      }
+      footer .content .top{
+        display:flex;
 }
 @media (max-width: 700px){
     footer{
@@ -248,15 +254,13 @@ footer .bottom-details .bottom_text{
         width: calc(100% / 3 - 10px);
     }
     footer .content .link-boxes .input-box{
-        width: 50%;
+        width: 40%;
     }
     .bottom-details .bottom_text span,
     .bottom-details .bottom_text a{
     font-size: 12px; 
     }
-    footer .bottom-details .bottom_text{
-      min-width: 50%;
-    }
+    
 }
 @media (max-width: 520px){
     footer::before{
@@ -281,13 +285,13 @@ footer .bottom-details .bottom_text{
     }
     footer .content .link-boxes .input-box{
         min-width: 10%;
-        max-width: 33%;
+        max-width: 25%;
     }
     footer .bottom-details .bottom_text{
         min-width: 50%;
       }
 }
-@media (max-width: 412px){
+@media (max-width: 420px){
     footer::before{
         top: 145px;
         
@@ -310,7 +314,7 @@ footer .bottom-details .bottom_text{
     }
     footer .content .link-boxes .input-box{
         min-width: 10%;
-        max-width: 24%;
+        max-width: 20%;
     }
     footer .bottom-details .bottom_text{
         min-width: 50%;
